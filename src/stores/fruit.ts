@@ -11,7 +11,7 @@ export const useFruitStore = defineStore('fruits', () => {
     const list: Ref<Fruit[]> = ref([
         {
             id: 'aaaa',
-            name: 'Apple'
+            name: 'Ananas'
         },
         {
             id: 'bbbb',
@@ -35,7 +35,7 @@ export const useFruitStore = defineStore('fruits', () => {
     };
 
     const remove = (fruitId: string) => {
-        list.value.filter((fruit) => {
+        list.value = list.value.filter((fruit) => {
             return fruit.id !== fruitId;
         });
     };
