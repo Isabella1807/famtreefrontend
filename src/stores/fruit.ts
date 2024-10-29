@@ -35,7 +35,7 @@ export const useFruitStore = defineStore('fruits', () => {
     };
 
     const remove = (fruitId: string) => {
-        list.value.filter((fruit) => {
+        list.value = list.value.filter((fruit) => {
             return fruit.id !== fruitId;
         });
     };
