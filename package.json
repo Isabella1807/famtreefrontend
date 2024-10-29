@@ -1,5 +1,7 @@
 {
-  "name": "vue-project",
+  "name": "familytree",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Isabella Christiansen, Sebastian Andresen",
   "version": "0.0.0",
   "private": true,
   "type": "module",
